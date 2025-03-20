@@ -3,6 +3,8 @@
 This repository provides the data and code of our [PLACEHOLDER! VTS'25 paper](https://www.google.com): 
 > Haocong Luo, İsmail Emir Yüksel, Ataberk Olgun, A. Giray Yağlıkçı, Onur Mutlu, "Revisiting DRAM Read Disturbance: Identifying Inconsistencies Between Experimental Characterization and Device-Level Studies", VTS'25.
 
+In this paper, we attempt to align and cross-validate the real-chip experimental characterization results and state-of-the-art device-level studies of DRAM read disturbance. To do so, we first identify and extract the key bitflip characteristics of RowHammer and RowPress from the device-level error mechanisms studied in prior works. Then, we perform experimental characterization on 96 COTS DDR4 DRAM chips that directly match the data and access patterns studied in the device-level works. Through our experiments, we identify fundamental inconsistencies in the RowHammer and RowPress bitflip directions and access pattern dependence between experimental characterization results and the device-level error mechanisms.
+
 Please use the following citation to cite our study if the repository is useful for you.
 ```
 @inproceedings{luo2025revisiting,
